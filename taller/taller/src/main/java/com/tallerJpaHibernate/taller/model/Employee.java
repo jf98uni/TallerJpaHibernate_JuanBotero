@@ -31,15 +31,16 @@ public class Employee {
     private List<Project> projects = new ArrayList<Project>();
 
 
-
     public Employee() {
     }
 
-    public Employee(String firstName, String lastName, String employeeid) {
+    public Employee(String firstName, String lastName, String employeeid, Role role) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.employeeid = employeeid;
+        this.role = role;
     }
+
 
     public Long getId() {
         return id;

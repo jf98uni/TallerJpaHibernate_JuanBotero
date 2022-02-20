@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d4c9ce1-d8c4-4f47-a6bb-4a1d272facda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IProjectJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/resources/application-prod1.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IRoleJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IProjectJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IProjectJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller/taller/src/test/java/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/test/java/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/classes/com/tallerJpaHibernate/taller/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/classes/com/tallerJpaHibernate/taller/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/classes/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/classes/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/surefire-reports/TEST-com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/surefire-reports/TEST-com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/surefire-reports/TEST-com.tallerJpaHibernate.taller.TallerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/surefire-reports/TEST-com.tallerJpaHibernate.taller.TallerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/surefire-reports/com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/surefire-reports/com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/surefire-reports/com.tallerJpaHibernate.taller.TallerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/surefire-reports/com.tallerJpaHibernate.taller.TallerApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller/taller/target/test-classes/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/test-classes/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +94,7 @@
       <recent name="E:\sofkaU\Springboot\TallerJpaHibernate_JuanBotero\taller\taller\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeJpaRepositoryTest">
+  <component name="RunManager" selected="JUnit.EmployeeJpaRepositoryTest.saveEmployee">
     <configuration name="EmployeeJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taller" />
       <extension name="coverage">
@@ -102,6 +106,22 @@
       <option name="PACKAGE_NAME" value="com.tallerJpaHibernate.taller" />
       <option name="MAIN_CLASS_NAME" value="com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeJpaRepositoryTest.saveEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tallerJpaHibernate.taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tallerJpaHibernate.taller" />
+      <option name="MAIN_CLASS_NAME" value="com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest" />
+      <option name="METHOD_NAME" value="saveEmployee" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +180,13 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.EmployeeJpaRepositoryTest" />
+      <item itemvalue="JUnit.EmployeeJpaRepositoryTest.saveEmployee" />
       <item itemvalue="Maven.taller [test] (1)" />
       <item itemvalue="Maven.taller [dev]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeJpaRepositoryTest.saveEmployee" />
         <item itemvalue="JUnit.EmployeeJpaRepositoryTest" />
       </list>
     </recent_temporary>
