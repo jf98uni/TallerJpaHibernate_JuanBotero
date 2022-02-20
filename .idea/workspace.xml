@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d4c9ce1-d8c4-4f47-a6bb-4a1d272facda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taller/taller/src/test/java/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/taller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/taller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +54,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EmployeeJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tallerJpaHibernate.taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tallerJpaHibernate.taller" />
+      <option name="MAIN_CLASS_NAME" value="com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeJpaRepositoryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
