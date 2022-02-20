@@ -1,0 +1,545 @@
+# Created at 2022-02-20T13:04:05.788
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2022-02-20T13:04:06.295
+Unexpected IOException: I,1,java.class.path,E:\005CsofkaU\005CSpringboot\005CTallerJpaHibernate_JuanBotero\005Ctaller\005Ctaller\005Ctarget\005Ctest-classes;E:\005CsofkaU\005CSpringboot\005CTallerJpaHibernate_JuanBotero\005Ctaller\005Ctaller\005Ctarget\005Cclasses;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-jpa\005C2.6.3\005Cspring-boot-starter-data-jpa-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-aop\005C2.6.3\005Cspring-boot-starter-aop-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.3.15\005Cspring-aop-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.9.7\005Caspectjweaver-1.9.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-jdbc\005C2.6.3\005Cspring-boot-starter-jdbc-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Czaxxer\005CHikariCP\005C4.0.3\005CHikariCP-4.0.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C5.3.15\005Cspring-jdbc-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Ctransaction\005Cjakarta.transaction-api\005C1.3.3\005Cjakarta.transaction-api-1.3.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cpersistence\005Cjakarta.persistence-api\005C2.2.3\005Cjakarta.persistence-api-2.2.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.6.4.Final\005Chibernate-core-5.6.4.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.4.3.Final\005Cjboss-logging-3.4.3.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.11.22\005Cbyte-buddy-1.11.22.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.4.2.Final\005Cjandex-2.4.2.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.5.1\005Cclassmate-1.5.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.1.2.Final\005Chibernate-commons-annotations-5.1.2.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cglassfish\005Cjaxb\005Cjaxb-runtime\005C2.3.5\005Cjaxb-runtime-2.3.5.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cglassfish\005Cjaxb\005Ctxw2\005C2.3.5\005Ctxw2-2.3.5.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Csun\005Cistack\005Cistack-commons-runtime\005C3.0.12\005Cistack-commons-runtime-3.0.12.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Csun\005Cactivation\005Cjakarta.activation\005C1.2.2\005Cjakarta.activation-1.2.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-jpa\005C2.6.1\005Cspring-data-jpa-2.6.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-commons\005C2.6.1\005Cspring-data-commons-2.6.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C5.3.15\005Cspring-orm-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.3.15\005Cspring-context-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C5.3.15\005Cspring-tx-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.3.15\005Cspring-beans-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.33\005Cslf4j-api-1.7.33.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aspects\005C5.3.15\005Cspring-aspects-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.6.3\005Cspring-boot-starter-web-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.6.3\005Cspring-boot-starter-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.6.3\005Cspring-boot-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.6.3\005Cspring-boot-autoconfigure-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.6.3\005Cspring-boot-starter-logging-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.10\005Clogback-classic-1.2.10.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.10\005Clogback-core-1.2.10.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.17.1\005Clog4j-to-slf4j-2.17.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.17.1\005Clog4j-api-2.17.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.33\005Cjul-to-slf4j-1.7.33.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.29\005Csnakeyaml-1.29.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.6.3\005Cspring-boot-starter-json-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.13.1\005Cjackson-databind-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.13.1\005Cjackson-annotations-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.13.1\005Cjackson-core-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.13.1\005Cjackson-datatype-jdk8-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.13.1\005Cjackson-datatype-jsr310-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.13.1\005Cjackson-module-parameter-names-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.3.15\005Cspring-web-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.3.15\005Cspring-webmvc-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.3.15\005Cspring-expression-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cmysql\005Cmysql-connector-java\005C8.0.28\005Cmysql-connector-java-8.0.28.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.6.3\005Cspring-boot-starter-tomcat-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cannotation\005Cjakarta.annotation-api\005C1.3.5\005Cjakarta.annotation-api-1.3.5.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.56\005Ctomcat-embed-core-9.0.56.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.56\005Ctomcat-embed-el-9.0.56.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.56\005Ctomcat-embed-websocket-9.0.56.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.6.3\005Cspring-boot-starter-test-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.6.3\005Cspring-boot-test-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.6.3\005Cspring-boot-test-autoconfigure-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.6.0\005Cjson-path-2.6.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.4.7\005Cjson-smart-2.4.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C2.4.7\005Caccessors-smart-2.4.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C9.1\005Casm-9.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cxml\005Cbind\005Cjakarta.xml.bind-api\005C2.3.3\005Cjakarta.xml.bind-api-2.3.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cactivation\005Cjakarta.activation-api\005C1.2.2\005Cjakarta.activation-api-1.2.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.21.0\005Cassertj-core-3.21.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest\005C2.2\005Chamcrest-2.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter\005C5.8.2\005Cjunit-jupiter-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-api\005C5.8.2\005Cjunit-jupiter-api-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Copentest4j\005Copentest4j\005C1.2.0\005Copentest4j-1.2.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-commons\005C1.8.2\005Cjunit-platform-commons-1.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-params\005C5.8.2\005Cjunit-jupiter-params-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-engine\005C5.8.2\005Cjunit-jupiter-engine-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-engine\005C1.8.2\005Cjunit-platform-engine-1.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C4.0.0\005Cmockito-core-4.0.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.11.22\005Cbyte-buddy-agent-1.11.22.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C3.2\005Cobjenesis-3.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-junit-jupiter\005C4.0.0\005Cmockito-junit-jupiter-4.0.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.0\005Cjsonassert-1.5.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.3.15\005Cspring-core-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.3.15\005Cspring-jcl-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.3.15\005Cspring-test-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.8.4\005Cxmlunit-core-2.8.4.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Ch2database\005Ch2\005C1.4.200\005Ch2-1.4.200.jar;
+
+
+# Created at 2022-02-20T13:04:06.296
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2022-02-20T13:04:06.296
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2022-02-20T13:04:06.296
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2022-02-20T13:04:06.297
+Unexpected IOException: I,1,java.vendor.url,https://java.oracle.com/
+
+
+# Created at 2022-02-20T13:04:06.297
+Unexpected IOException: I,1,user.timezone,America/Bogota
+
+
+# Created at 2022-02-20T13:04:06.297
+Unexpected IOException: I,1,java.vm.specification.version,17
+
+
+# Created at 2022-02-20T13:04:06.297
+Unexpected IOException: I,1,os.name,Windows 11
+
+
+# Created at 2022-02-20T13:04:06.298
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2022-02-20T13:04:06.298
+Unexpected IOException: I,1,user.country,CO
+
+
+# Created at 2022-02-20T13:04:06.298
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CUsers\005Cjuanf\005C.jdks\005Copenjdk-17.0.2\005Cbin
+
+
+# Created at 2022-02-20T13:04:06.299
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CTemp\005Csurefire8989284371962356764\005Csurefirebooter11214811659985941391.jar C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CTemp\005Csurefire8989284371962356764 2022-02-20T13-04-05_543-jvmRun1 surefire16613583325679616745tmp surefire_017469554872219884489tmp
+
+
+# Created at 2022-02-20T13:04:06.299
+Unexpected IOException: I,1,jdk.debug,release
+
+
+# Created at 2022-02-20T13:04:06.300
+Unexpected IOException: I,1,surefire.test.class.path,E:\005CsofkaU\005CSpringboot\005CTallerJpaHibernate_JuanBotero\005Ctaller\005Ctaller\005Ctarget\005Ctest-classes;E:\005CsofkaU\005CSpringboot\005CTallerJpaHibernate_JuanBotero\005Ctaller\005Ctaller\005Ctarget\005Cclasses;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-jpa\005C2.6.3\005Cspring-boot-starter-data-jpa-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-aop\005C2.6.3\005Cspring-boot-starter-aop-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.3.15\005Cspring-aop-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.9.7\005Caspectjweaver-1.9.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-jdbc\005C2.6.3\005Cspring-boot-starter-jdbc-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Czaxxer\005CHikariCP\005C4.0.3\005CHikariCP-4.0.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C5.3.15\005Cspring-jdbc-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Ctransaction\005Cjakarta.transaction-api\005C1.3.3\005Cjakarta.transaction-api-1.3.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cpersistence\005Cjakarta.persistence-api\005C2.2.3\005Cjakarta.persistence-api-2.2.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.6.4.Final\005Chibernate-core-5.6.4.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.4.3.Final\005Cjboss-logging-3.4.3.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.11.22\005Cbyte-buddy-1.11.22.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.4.2.Final\005Cjandex-2.4.2.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.5.1\005Cclassmate-1.5.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.1.2.Final\005Chibernate-commons-annotations-5.1.2.Final.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cglassfish\005Cjaxb\005Cjaxb-runtime\005C2.3.5\005Cjaxb-runtime-2.3.5.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cglassfish\005Cjaxb\005Ctxw2\005C2.3.5\005Ctxw2-2.3.5.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Csun\005Cistack\005Cistack-commons-runtime\005C3.0.12\005Cistack-commons-runtime-3.0.12.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Csun\005Cactivation\005Cjakarta.activation\005C1.2.2\005Cjakarta.activation-1.2.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-jpa\005C2.6.1\005Cspring-data-jpa-2.6.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-commons\005C2.6.1\005Cspring-data-commons-2.6.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C5.3.15\005Cspring-orm-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.3.15\005Cspring-context-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C5.3.15\005Cspring-tx-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.3.15\005Cspring-beans-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.33\005Cslf4j-api-1.7.33.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aspects\005C5.3.15\005Cspring-aspects-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.6.3\005Cspring-boot-starter-web-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.6.3\005Cspring-boot-starter-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.6.3\005Cspring-boot-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.6.3\005Cspring-boot-autoconfigure-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.6.3\005Cspring-boot-starter-logging-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.10\005Clogback-classic-1.2.10.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.10\005Clogback-core-1.2.10.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.17.1\005Clog4j-to-slf4j-2.17.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.17.1\005Clog4j-api-2.17.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.33\005Cjul-to-slf4j-1.7.33.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.29\005Csnakeyaml-1.29.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.6.3\005Cspring-boot-starter-json-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.13.1\005Cjackson-databind-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.13.1\005Cjackson-annotations-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.13.1\005Cjackson-core-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.13.1\005Cjackson-datatype-jdk8-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.13.1\005Cjackson-datatype-jsr310-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.13.1\005Cjackson-module-parameter-names-2.13.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.3.15\005Cspring-web-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.3.15\005Cspring-webmvc-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.3.15\005Cspring-expression-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cmysql\005Cmysql-connector-java\005C8.0.28\005Cmysql-connector-java-8.0.28.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.6.3\005Cspring-boot-starter-tomcat-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cannotation\005Cjakarta.annotation-api\005C1.3.5\005Cjakarta.annotation-api-1.3.5.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.56\005Ctomcat-embed-core-9.0.56.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.56\005Ctomcat-embed-el-9.0.56.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.56\005Ctomcat-embed-websocket-9.0.56.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.6.3\005Cspring-boot-starter-test-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.6.3\005Cspring-boot-test-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.6.3\005Cspring-boot-test-autoconfigure-2.6.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.6.0\005Cjson-path-2.6.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.4.7\005Cjson-smart-2.4.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C2.4.7\005Caccessors-smart-2.4.7.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C9.1\005Casm-9.1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cxml\005Cbind\005Cjakarta.xml.bind-api\005C2.3.3\005Cjakarta.xml.bind-api-2.3.3.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cjakarta\005Cactivation\005Cjakarta.activation-api\005C1.2.2\005Cjakarta.activation-api-1.2.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.21.0\005Cassertj-core-3.21.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest\005C2.2\005Chamcrest-2.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter\005C5.8.2\005Cjunit-jupiter-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-api\005C5.8.2\005Cjunit-jupiter-api-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Copentest4j\005Copentest4j\005C1.2.0\005Copentest4j-1.2.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-commons\005C1.8.2\005Cjunit-platform-commons-1.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-params\005C5.8.2\005Cjunit-jupiter-params-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-engine\005C5.8.2\005Cjunit-jupiter-engine-5.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-engine\005C1.8.2\005Cjunit-platform-engine-1.8.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C4.0.0\005Cmockito-core-4.0.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.11.22\005Cbyte-buddy-agent-1.11.22.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C3.2\005Cobjenesis-3.2.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-junit-jupiter\005C4.0.0\005Cmockito-junit-jupiter-4.0.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.0\005Cjsonassert-1.5.0.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.3.15\005Cspring-core-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.3.15\005Cspring-jcl-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.3.15\005Cspring-test-5.3.15.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.8.4\005Cxmlunit-core-2.8.4.jar;C:\005CUsers\005Cjuanf\005C.m2\005Crepository\005Ccom\005Ch2database\005Ch2\005C1.4.200\005Ch2-1.4.200.jar;
+
+
+# Created at 2022-02-20T13:04:06.301
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2022-02-20T13:04:06.301
+Unexpected IOException: I,1,user.home,C:\005CUsers\005Cjuanf
+
+
+# Created at 2022-02-20T13:04:06.301
+Unexpected IOException: I,1,user.language,es
+
+
+# Created at 2022-02-20T13:04:06.302
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-02-20T13:04:06.302
+Unexpected IOException: I,1,java.version.date,2022-01-18
+
+
+# Created at 2022-02-20T13:04:06.302
+Unexpected IOException: I,1,java.home,C:\005CUsers\005Cjuanf\005C.jdks\005Copenjdk-17.0.2
+
+
+# Created at 2022-02-20T13:04:06.303
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2022-02-20T13:04:06.303
+Unexpected IOException: I,1,basedir,E:\005CsofkaU\005CSpringboot\005CTallerJpaHibernate_JuanBotero\005Ctaller\005Ctaller
+
+
+# Created at 2022-02-20T13:04:06.303
+Unexpected IOException: I,1,java.vm.compressedOopsMode,Zero based
+
+
+# Created at 2022-02-20T13:04:06.304
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2022-02-20T13:04:06.304
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-02-20T13:04:06.304
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2022-02-20T13:04:06.305
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CTemp\005Csurefire8989284371962356764\005Csurefirebooter11214811659985941391.jar
+
+
+# Created at 2022-02-20T13:04:06.305
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2022-02-20T13:04:06.305
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2022-02-20T13:04:06.305
+Unexpected IOException: I,1,java.runtime.version,17.0.2+8-86
+
+
+# Created at 2022-02-20T13:04:06.306
+Unexpected IOException: I,1,user.name,juanf
+
+
+# Created at 2022-02-20T13:04:06.306
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2022-02-20T13:04:06.306
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created at 2022-02-20T13:04:06.307
+Unexpected IOException: I,1,java.runtime.name,OpenJDK Runtime Environment
+
+
+# Created at 2022-02-20T13:04:06.307
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created at 2022-02-20T13:04:06.307
+Unexpected IOException: I,1,java.vm.name,OpenJDK 64-Bit Server VM
+
+
+# Created at 2022-02-20T13:04:06.308
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005Cjuanf\005C.m2\005Crepository
+
+
+# Created at 2022-02-20T13:04:06.308
+Unexpected IOException: I,1,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created at 2022-02-20T13:04:06.309
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2022-02-20T13:04:06.309
+Unexpected IOException: I,1,idea.version,2021.3.1
+
+
+# Created at 2022-02-20T13:04:06.309
+Unexpected IOException: I,1,java.version,17.0.2
+
+
+# Created at 2022-02-20T13:04:06.309
+Unexpected IOException: I,1,user.dir,E:\005CsofkaU\005CSpringboot\005CTallerJpaHibernate_JuanBotero\005Ctaller\005Ctaller
+
+
+# Created at 2022-02-20T13:04:06.310
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2022-02-20T13:04:06.310
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2022-02-20T13:04:06.310
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created at 2022-02-20T13:04:06.311
+Unexpected IOException: I,1,native.encoding,Cp1252
+
+
+# Created at 2022-02-20T13:04:06.311
+Unexpected IOException: I,1,java.library.path,C:\005CUsers\005Cjuanf\005C.jdks\005Copenjdk-17.0.2\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWindows\005CSystem32\005COpenSSH\005C;C:\005CProgram Files (x86)\005CNVIDIA Corporation\005CPhysX\005CCommon;C:\005CProgram Files\005CNVIDIA Corporation\005CNVIDIA NvDLISR;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005CMySQL\005CMySQL Shell 8.0\005Cbin\005C;C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;C:\005CProgram Files\005CJetBrains\005CIntelliJ IDEA Community Edition 2021.3.1\005Cbin;;C:\005CUsers\005Cjuanf\005CAppData\005CLocal\005CGitHubDesktop\005Cbin;.
+
+
+# Created at 2022-02-20T13:04:06.311
+Unexpected IOException: I,1,java.vm.info,mixed mode\002C sharing
+
+
+# Created at 2022-02-20T13:04:06.312
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created at 2022-02-20T13:04:06.312
+Unexpected IOException: I,1,java.vm.version,17.0.2+8-86
+
+
+# Created at 2022-02-20T13:04:06.312
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2022-02-20T13:04:06.312
+Unexpected IOException: I,1,java.class.version,61.0
+
+
+# Created at 2022-02-20T13:04:06.489
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,null,null,null
+
+
+# Created at 2022-02-20T13:04:06.527
+Unexpected IOException with stream: 13:04:06.525 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+
+
+# Created at 2022-02-20T13:04:06.532
+Unexpected IOException with stream: 13:04:06.532 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+
+
+# Created at 2022-02-20T13:04:06.558
+Unexpected IOException with stream: 13:04:06.557 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest] from class [org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper]
+
+
+# Created at 2022-02-20T13:04:06.566
+Unexpected IOException with stream: 13:04:06.565 [main] INFO org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest], using SpringBootContextLoader
+
+
+# Created at 2022-02-20T13:04:06.569
+Unexpected IOException with stream: 13:04:06.568 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest]: class path resource [com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest-context.xml] does not exist
+
+
+# Created at 2022-02-20T13:04:06.569
+Unexpected IOException with stream: 13:04:06.569 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest]: class path resource [com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTestContext.groovy] does not exist
+
+
+# Created at 2022-02-20T13:04:06.570
+Unexpected IOException with stream: 13:04:06.570 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-02-20T13:04:06.571
+Unexpected IOException with stream: 13:04:06.570 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest]: EmployeeJpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-02-20T13:04:06.613
+Unexpected IOException with stream: 13:04:06.612 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest]
+
+
+# Created at 2022-02-20T13:04:06.651
+Unexpected IOException with stream: 13:04:06.651 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\sofkaU\Springboot\TallerJpaHibernate_JuanBotero\taller\taller\target\classes\com\tallerJpaHibernate\taller\TallerApplication.class]
+
+
+# Created at 2022-02-20T13:04:06.653
+Unexpected IOException with stream: 13:04:06.652 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tallerJpaHibernate.taller.TallerApplication for test class com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest
+
+
+# Created at 2022-02-20T13:04:06.661
+Unexpected IOException with stream: 13:04:06.661 [main] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest]: using defaults.
+
+
+# Created at 2022-02-20T13:04:06.662
+Unexpected IOException with stream: 13:04:06.662 [main] INFO org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-02-20T13:04:06.675
+Unexpected IOException with stream: 13:04:06.675 [main] INFO org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ea2bc93, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3116c353, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@f627d13, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e928fbf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@352ff4da, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3224a577, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2e32ccc5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@748741cb, org.springframework.test.context.event.EventPublishingTestExecutionListener@3e44f2a5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@295cf707, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1130520d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f77d0f9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@463fd068, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@895e367, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1b266842]
+
+
+# Created at 2022-02-20T13:04:06.679
+Unexpected IOException with stream: 13:04:06.678 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@479cbee5 testClass = EmployeeJpaRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@59e2d8e3 testClass = EmployeeJpaRepositoryTest, locations = '{}', classes = '{class com.tallerJpaHibernate.taller.TallerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2b72cb8a key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5d0bf09b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@563f38c4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@712625fd, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1c5920df, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@38e6904a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7d9d0818, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2022-02-20T13:04:06.691
+Unexpected IOException with stream: 13:04:06.690 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@479cbee5 testClass = EmployeeJpaRepositoryTest, testInstance = com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest@34f6515b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@59e2d8e3 testClass = EmployeeJpaRepositoryTest, locations = '{}', classes = '{class com.tallerJpaHibernate.taller.TallerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2b72cb8a key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5d0bf09b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@563f38c4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@712625fd, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1c5920df, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@38e6904a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7d9d0818, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+
+
+# Created at 2022-02-20T13:04:06.881
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-20T13:04:06.881
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-02-20T13:04:06.881
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-02-20T13:04:06.882
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-02-20T13:04:06.882
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-02-20T13:04:06.882
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-02-20T13:04:06.883
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-02-20T13:04:06.883
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.6.3)
+
+
+# Created at 2022-02-20T13:04:06.884
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-20T13:04:06.922
+Unexpected IOException with stream: 2022-02-20 13:04:06.922  INFO 6672 --- [           main] c.t.taller.EmployeeJpaRepositoryTest     : Starting EmployeeJpaRepositoryTest using Java 17.0.2 on DINGO-4 with PID 6672 (started by juanf in E:\sofkaU\Springboot\TallerJpaHibernate_JuanBotero\taller\taller)
+
+
+# Created at 2022-02-20T13:04:06.923
+Unexpected IOException with stream: 2022-02-20 13:04:06.923  INFO 6672 --- [           main] c.t.taller.EmployeeJpaRepositoryTest     : No active profile set, falling back to default profiles: default
+
+
+# Created at 2022-02-20T13:04:07.183
+Unexpected IOException with stream: 2022-02-20 13:04:07.182  INFO 6672 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+
+# Created at 2022-02-20T13:04:07.213
+Unexpected IOException with stream: 2022-02-20 13:04:07.213  INFO 6672 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+
+
+# Created at 2022-02-20T13:04:07.492
+Unexpected IOException with stream: 2022-02-20 13:04:07.491  INFO 6672 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2022-02-20T13:04:07.524
+Unexpected IOException with stream: 2022-02-20 13:04:07.523  INFO 6672 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+
+
+# Created at 2022-02-20T13:04:07.617
+Unexpected IOException with stream: 2022-02-20 13:04:07.616  INFO 6672 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+
+
+# Created at 2022-02-20T13:04:07.705
+Unexpected IOException with stream: 2022-02-20 13:04:07.704  INFO 6672 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2022-02-20T13:04:07.805
+Unexpected IOException with stream: 2022-02-20 13:04:07.805  INFO 6672 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2022-02-20T13:04:07.822
+Unexpected IOException with stream: 2022-02-20 13:04:07.821  INFO 6672 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+
+
+# Created at 2022-02-20T13:04:08.159
+Unexpected IOException with stream: 2022-02-20 13:04:08.159  INFO 6672 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2022-02-20T13:04:08.165
+Unexpected IOException with stream: 2022-02-20 13:04:08.165  INFO 6672 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2022-02-20T13:04:08.459
+Unexpected IOException with stream: 2022-02-20 13:04:08.459  INFO 6672 --- [           main] c.t.taller.EmployeeJpaRepositoryTest     : Started EmployeeJpaRepositoryTest in 1.746 seconds (JVM running for 2.776)
+
+
+# Created at 2022-02-20T13:04:08.468
+Unexpected IOException: 5,1,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,saveEmployee,null,null,null
+
+
+# Created at 2022-02-20T13:04:08.478
+Unexpected IOException with stream: 2022-02-20 13:04:08.477  INFO 6672 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@479cbee5 testClass = EmployeeJpaRepositoryTest, testInstance = com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest@34f6515b, testMethod = saveEmployee@EmployeeJpaRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@59e2d8e3 testClass = EmployeeJpaRepositoryTest, locations = '{}', classes = '{class com.tallerJpaHibernate.taller.TallerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2b72cb8a key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5d0bf09b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@563f38c4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@712625fd, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1c5920df, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@38e6904a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7d9d0818, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@4aac81ca]; rollback [true]
+
+
+# Created at 2022-02-20T13:04:08.589
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T13:04:08.604
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T13:04:08.612
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T13:04:08.613
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T13:04:08.621
+Unexpected IOException with stream: Hibernate: insert into employee (employeeid, first_name, last_name, id) values (?, ?, ?, ?)
+
+
+# Created at 2022-02-20T13:04:08.623
+Unexpected IOException with stream: Hibernate: insert into employee (employeeid, first_name, last_name, id) values (?, ?, ?, ?)
+
+
+# Created at 2022-02-20T13:04:08.677
+Unexpected IOException with stream: Hibernate: select employee0_.id as id1_0_, employee0_.employeeid as employee2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_ from employee employee0_
+
+
+# Created at 2022-02-20T13:04:08.687
+Unexpected IOException with stream: 2022-02-20 13:04:08.687  INFO 6672 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@479cbee5 testClass = EmployeeJpaRepositoryTest, testInstance = com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest@34f6515b, testMethod = saveEmployee@EmployeeJpaRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@59e2d8e3 testClass = EmployeeJpaRepositoryTest, locations = '{}', classes = '{class com.tallerJpaHibernate.taller.TallerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2b72cb8a key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5d0bf09b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@563f38c4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@712625fd, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1c5920df, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@38e6904a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7d9d0818, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+
+
+# Created at 2022-02-20T13:04:08.691
+Unexpected IOException: 6,1,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,saveEmployee,null,null,null
+
+
+# Created at 2022-02-20T13:04:08.692
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,null,null,null
+
+
+# Created at 2022-02-20T13:04:08.693
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.TallerApplicationTests,null,null,null
+
+
+# Created at 2022-02-20T13:04:08.694
+Unexpected IOException with stream: 2022-02-20 13:04:08.694  INFO 6672 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tallerJpaHibernate.taller.TallerApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2022-02-20T13:04:08.695
+Unexpected IOException with stream: 2022-02-20 13:04:08.695  INFO 6672 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tallerJpaHibernate.taller.TallerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-02-20T13:04:08.695
+Unexpected IOException with stream: 2022-02-20 13:04:08.695  INFO 6672 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tallerJpaHibernate.taller.TallerApplicationTests]: TallerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-02-20T13:04:08.696
+Unexpected IOException with stream: 2022-02-20 13:04:08.696  INFO 6672 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tallerJpaHibernate.taller.TallerApplication for test class com.tallerJpaHibernate.taller.TallerApplicationTests
+
+
+# Created at 2022-02-20T13:04:08.699
+Unexpected IOException with stream: 2022-02-20 13:04:08.699  INFO 6672 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-02-20T13:04:08.700
+Unexpected IOException with stream: 2022-02-20 13:04:08.700  INFO 6672 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@788a0513, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d65e744, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@44de3b46, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1a85e86e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@320fc4b0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10724a72, org.springframework.test.context.transaction.TransactionalTestExecutionListener@25435731, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10301d6f, org.springframework.test.context.event.EventPublishingTestExecutionListener@5cd6719d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ef591af, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@61b0af9f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71fb1da3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1ecec098, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6cc44207, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@8ecc457]
+
+
+# Created at 2022-02-20T13:04:08.718
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-20T13:04:08.719
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-02-20T13:04:08.719
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-02-20T13:04:08.720
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-02-20T13:04:08.720
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-02-20T13:04:08.720
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-02-20T13:04:08.721
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-02-20T13:04:08.721
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.6.3)
+
+
+# Created at 2022-02-20T13:04:08.721
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-20T13:04:08.724
+Unexpected IOException with stream: 2022-02-20 13:04:08.723  INFO 6672 --- [           main] c.t.taller.TallerApplicationTests        : Starting TallerApplicationTests using Java 17.0.2 on DINGO-4 with PID 6672 (started by juanf in E:\sofkaU\Springboot\TallerJpaHibernate_JuanBotero\taller\taller)
+
+
+# Created at 2022-02-20T13:04:08.724
+Unexpected IOException with stream: 2022-02-20 13:04:08.724  INFO 6672 --- [           main] c.t.taller.TallerApplicationTests        : No active profile set, falling back to default profiles: default
+
+
+# Created at 2022-02-20T13:04:08.879
+Unexpected IOException with stream: 2022-02-20 13:04:08.879  INFO 6672 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+
+# Created at 2022-02-20T13:04:08.884
+Unexpected IOException with stream: 2022-02-20 13:04:08.884  INFO 6672 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+
+
+# Created at 2022-02-20T13:04:09.000
+Unexpected IOException with stream: 2022-02-20 13:04:08.999  INFO 6672 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2022-02-20T13:04:09.004
+Unexpected IOException with stream: 2022-02-20 13:04:09.003  INFO 6672 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+
+
+# Created at 2022-02-20T13:04:09.007
+Unexpected IOException with stream: 2022-02-20 13:04:09.006  INFO 6672 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+
+
+# Created at 2022-02-20T13:04:09.007
+Unexpected IOException with stream: 2022-02-20 13:04:09.007  INFO 6672 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+
+
+# Created at 2022-02-20T13:04:09.029
+Unexpected IOException with stream: 2022-02-20 13:04:09.029  INFO 6672 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2022-02-20T13:04:09.030
+Unexpected IOException with stream: 2022-02-20 13:04:09.029  INFO 6672 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2022-02-20T13:04:09.157
+Unexpected IOException with stream: 2022-02-20 13:04:09.156  WARN 6672 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2022-02-20T13:04:09.583
+Unexpected IOException with stream: 2022-02-20 13:04:09.582  INFO 6672 --- [           main] c.t.taller.TallerApplicationTests        : Started TallerApplicationTests in 0.876 seconds (JVM running for 3.899)
+
+
+# Created at 2022-02-20T13:04:09.594
+Unexpected IOException: 5,1,com.tallerJpaHibernate.taller.TallerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-02-20T13:04:09.598
+Unexpected IOException: 6,1,com.tallerJpaHibernate.taller.TallerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-02-20T13:04:09.599
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.TallerApplicationTests,null,null,null
+
+

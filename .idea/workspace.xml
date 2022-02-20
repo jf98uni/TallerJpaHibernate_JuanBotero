@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d4c9ce1-d8c4-4f47-a6bb-4a1d272facda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/taller/taller/src/test/java/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IProjectJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taller/taller/src/main/resources/application-prod1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/repository/IEmployeeJpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/taller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/taller.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller/taller/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/java/com/tallerJpaHibernate/taller/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/src/test/java/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/src/test/java/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller/taller/target/test-classes/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/taller/taller/target/test-classes/com/tallerJpaHibernate/taller/EmployeeJpaRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +26,37 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,9 +82,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/taller/taller/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sofkaU\Springboot\TallerJpaHibernate_JuanBotero\taller\taller\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeJpaRepositoryTest">
     <configuration name="EmployeeJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="taller" />
       <extension name="coverage">
@@ -71,6 +106,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="taller [dev]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+                <option value="-Dspring.profiles.active=dev" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/taller/taller" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="taller [test] (1)" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+                <option value="-Dspring.profiles.active=prod1" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/taller/taller" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.EmployeeJpaRepositoryTest" />
+      <item itemvalue="Maven.taller [test] (1)" />
+      <item itemvalue="Maven.taller [dev]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EmployeeJpaRepositoryTest" />
