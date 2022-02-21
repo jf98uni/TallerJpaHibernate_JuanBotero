@@ -1,0 +1,269 @@
+# Created at 2022-02-20T19:15:46.809
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2022-02-20T19:15:47.491
+Unexpected IOException with stream: 2022-02-20 19:15:47.490  INFO 35976 --- [           main] c.t.taller.EmployeeJpaRepositoryTest     : Started EmployeeJpaRepositoryTest in 1.924 seconds (JVM running for 2.463)
+
+
+# Created at 2022-02-20T19:15:47.505
+Unexpected IOException: 5,1,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,saveEmployee,null,null,null
+
+
+# Created at 2022-02-20T19:15:47.519
+Unexpected IOException with stream: 2022-02-20 19:15:47.518  INFO 35976 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5d43661b testClass = EmployeeJpaRepositoryTest, testInstance = com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest@14008db3, testMethod = saveEmployee@EmployeeJpaRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@12299890 testClass = EmployeeJpaRepositoryTest, locations = '{}', classes = '{class com.tallerJpaHibernate.taller.TallerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2fba3fc4 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@543295b0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3e27ba32, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@350aac89, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4c60d6e9, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@5053404a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3e08ff24, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@6ea3a513]; rollback [true]
+
+
+# Created at 2022-02-20T19:15:47.682
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.684
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.695
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.696
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.700
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.701
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.703
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.704
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.707
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.708
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.712
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.713
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.721
+Unexpected IOException with stream: Hibernate: select next_val as id_val from hibernate_sequence for update
+
+
+# Created at 2022-02-20T19:15:47.722
+Unexpected IOException with stream: Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+
+
+# Created at 2022-02-20T19:15:47.732
+Unexpected IOException with stream: Hibernate: insert into role (name, id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.735
+Unexpected IOException with stream: Hibernate: insert into role (name, id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.736
+Unexpected IOException with stream: Hibernate: insert into project (name, id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.737
+Unexpected IOException with stream: Hibernate: insert into project (name, id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.737
+Unexpected IOException with stream: Hibernate: insert into project (name, id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.738
+Unexpected IOException with stream: Hibernate: insert into employee (employeeid, first_name, last_name, id_role, id) values (?, ?, ?, ?, ?)
+
+
+# Created at 2022-02-20T19:15:47.739
+Unexpected IOException with stream: Hibernate: insert into employee (employeeid, first_name, last_name, id_role, id) values (?, ?, ?, ?, ?)
+
+
+# Created at 2022-02-20T19:15:47.741
+Unexpected IOException with stream: Hibernate: insert into employee_project (employee_id, project_id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.742
+Unexpected IOException with stream: Hibernate: insert into employee_project (employee_id, project_id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.743
+Unexpected IOException with stream: Hibernate: insert into employee_project (employee_id, project_id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.744
+Unexpected IOException with stream: Hibernate: insert into employee_project (employee_id, project_id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.745
+Unexpected IOException with stream: Hibernate: insert into employee_project (employee_id, project_id) values (?, ?)
+
+
+# Created at 2022-02-20T19:15:47.805
+Unexpected IOException with stream: Hibernate: select employee0_.id as id1_0_, employee0_.employeeid as employee2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_, employee0_.id_role as id_role5_0_ from employee employee0_ where employee0_.employeeid=?
+
+
+# Created at 2022-02-20T19:15:47.814
+Unexpected IOException with stream: Hibernate: select employee0_.id as id1_0_, employee0_.employeeid as employee2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_, employee0_.id_role as id_role5_0_ from employee employee0_
+
+
+# Created at 2022-02-20T19:15:47.823
+Unexpected IOException with stream: 2022-02-20 19:15:47.822  INFO 35976 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5d43661b testClass = EmployeeJpaRepositoryTest, testInstance = com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest@14008db3, testMethod = saveEmployee@EmployeeJpaRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@12299890 testClass = EmployeeJpaRepositoryTest, locations = '{}', classes = '{class com.tallerJpaHibernate.taller.TallerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2fba3fc4 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@543295b0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3e27ba32, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@350aac89, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4c60d6e9, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@5053404a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3e08ff24, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+
+
+# Created at 2022-02-20T19:15:47.827
+Unexpected IOException: 6,1,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,saveEmployee,null,null,null
+
+
+# Created at 2022-02-20T19:15:47.828
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.EmployeeJpaRepositoryTest,null,null,null
+
+
+# Created at 2022-02-20T19:15:47.829
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.TallerApplicationTests,null,null,null
+
+
+# Created at 2022-02-20T19:15:47.831
+Unexpected IOException with stream: 2022-02-20 19:15:47.831  INFO 35976 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tallerJpaHibernate.taller.TallerApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2022-02-20T19:15:47.832
+Unexpected IOException with stream: 2022-02-20 19:15:47.832  INFO 35976 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tallerJpaHibernate.taller.TallerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-02-20T19:15:47.833
+Unexpected IOException with stream: 2022-02-20 19:15:47.832  INFO 35976 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tallerJpaHibernate.taller.TallerApplicationTests]: TallerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-02-20T19:15:47.834
+Unexpected IOException with stream: 2022-02-20 19:15:47.834  INFO 35976 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tallerJpaHibernate.taller.TallerApplication for test class com.tallerJpaHibernate.taller.TallerApplicationTests
+
+
+# Created at 2022-02-20T19:15:47.837
+Unexpected IOException with stream: 2022-02-20 19:15:47.837  INFO 35976 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-02-20T19:15:47.838
+Unexpected IOException with stream: 2022-02-20 19:15:47.838  INFO 35976 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52ccf197, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2b06681c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@20f6b6e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67cd84f9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52b891de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ae6451d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5f32ab17, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@54530644, org.springframework.test.context.event.EventPublishingTestExecutionListener@42734b71, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a45308f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@70e54ec3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3cc817bd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@64b8eb96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@776a7ec6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2d23a5be]
+
+
+# Created at 2022-02-20T19:15:47.863
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-20T19:15:47.864
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-02-20T19:15:47.864
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-02-20T19:15:47.865
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-02-20T19:15:47.865
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-02-20T19:15:47.865
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-02-20T19:15:47.866
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-02-20T19:15:47.866
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.6.3)
+
+
+# Created at 2022-02-20T19:15:47.866
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-20T19:15:47.869
+Unexpected IOException with stream: 2022-02-20 19:15:47.869  INFO 35976 --- [           main] c.t.taller.TallerApplicationTests        : Starting TallerApplicationTests using Java 17.0.2 on DINGO-4 with PID 35976 (started by juanf in E:\sofkaU\Springboot\TallerJpaHibernate_JuanBotero\taller\taller)
+
+
+# Created at 2022-02-20T19:15:47.870
+Unexpected IOException with stream: 2022-02-20 19:15:47.870  INFO 35976 --- [           main] c.t.taller.TallerApplicationTests        : The following profiles are active: prod1
+
+
+# Created at 2022-02-20T19:15:48.064
+Unexpected IOException with stream: 2022-02-20 19:15:48.063  INFO 35976 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+
+# Created at 2022-02-20T19:15:48.073
+Unexpected IOException with stream: 2022-02-20 19:15:48.073  INFO 35976 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 3 JPA repository interfaces.
+
+
+# Created at 2022-02-20T19:15:48.212
+Unexpected IOException with stream: 2022-02-20 19:15:48.211  INFO 35976 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2022-02-20T19:15:48.217
+Unexpected IOException with stream: 2022-02-20 19:15:48.216  INFO 35976 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+
+
+# Created at 2022-02-20T19:15:48.220
+Unexpected IOException with stream: 2022-02-20 19:15:48.220  INFO 35976 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+
+
+# Created at 2022-02-20T19:15:48.221
+Unexpected IOException with stream: 2022-02-20 19:15:48.221  INFO 35976 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+
+
+# Created at 2022-02-20T19:15:48.288
+Unexpected IOException with stream: 2022-02-20 19:15:48.287  INFO 35976 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2022-02-20T19:15:48.289
+Unexpected IOException with stream: 2022-02-20 19:15:48.288  INFO 35976 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2022-02-20T19:15:48.567
+Unexpected IOException with stream: 2022-02-20 19:15:48.567  WARN 35976 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2022-02-20T19:15:49.007
+Unexpected IOException with stream: 2022-02-20 19:15:49.006  INFO 35976 --- [           main] c.t.taller.TallerApplicationTests        : Started TallerApplicationTests in 1.161 seconds (JVM running for 3.979)
+
+
+# Created at 2022-02-20T19:15:49.018
+Unexpected IOException: 5,1,com.tallerJpaHibernate.taller.TallerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-02-20T19:15:49.021
+Unexpected IOException: 6,1,com.tallerJpaHibernate.taller.TallerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-02-20T19:15:49.022
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.tallerJpaHibernate.taller.TallerApplicationTests,null,null,null
+
+

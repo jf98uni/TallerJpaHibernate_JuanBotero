@@ -9,5 +9,3 @@ F
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 H
 taller/taller/taller.iml,d\4\d4352e5b74061e14853e049440f02481df669fed
-E
-taller/taller/pom.xml,9\0\90cbd028dff63926fc034cc3db78c851c28276d2

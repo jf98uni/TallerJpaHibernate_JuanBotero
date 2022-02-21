@@ -110,6 +110,8 @@ public class Employee {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", employeeid='" + employeeid + '\'' +
+                ", role=" + role +
+                ", projects=" + projects +
                 '}';
     }
 }
